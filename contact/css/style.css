@@ -24,7 +24,8 @@
     text-align: center;
 }
 
-.contact-form-wrapper input {
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
     width: 100%;
     margin: 10px 0;
     padding: 10px 15px;
@@ -33,7 +34,8 @@
     font-size: 18px;
 }
 
-.contact-form-wrapper input:focus-visible {
+.contact-form-wrapper input:focus-visible,
+.contact-form-wrapper textarea:focus-visible {
     border: 3px solid var(--secondary);
     outline: none;
 }
